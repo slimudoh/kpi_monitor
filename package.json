@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "kpi-indicator",
+  "productName": "rovedana kpi indicator",
+  "description": "app indicator to monitor staff performance",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single"
+  },
+  "author": {
+    "name": "slimudoh",
+    "email": "uwem@rovedana.com"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "normalize.css": "^7.0.0",
+    "object-assign": "^4.1.1",
+    "promise-polyfill": "^6.0.2",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "poi": "^9.0.0",
+    "poi-preset-bundle-report": "^2.0.0",
+    "serve": "^6.1.0"
+  }
+}
